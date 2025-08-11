@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  background-image: url("../images/F0038993-Cow_in_field\,_close-up.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.hero h1 {
+  color: azure;
+  font-size: 100px;
+  text-align: center;
+}
+
+.article {
+  width: 80%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 60px auto;
+  background-color: aquamarine;
+  padding: 60px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+  background: linear-gradient(pink, blue);
+}
+
+.article h2 {
+  text-align: center;
+  font-size: 48px;
+  border-bottom: 2px solid yellowgreen;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 15px;
+  /* margin-bottom: 10px; */
+}
+
+.article .text {
+  line-height: 20px;
+}
+
+.article p .imp {
+  font-size: 3rem;
+}
+
+.cow-images {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cow-images div {
+  min-width: 300px;
+}
+
+.cow-images img {
+  width: 100%;
+}
